@@ -1,0 +1,71 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  /* margin: 2rem; */
+}
+
+svg {
+  overflow: visible;
+  /* border: 2px solid black; */
+  /* box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.4); */
+  /* background-color: #fff; */
+  display: block;
+
+  width: 800px;
+  height: 400px;
+  /* padding: 50px; */
+}
+
+.svgContainer {
+  width: 850px;
+  height: 450px;
+  padding-left: 40px;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.4);
+  background-color: #fff;
+}
+
+body {
+  display: flex;
+
+  /* flex-direction: column; */
+  /* align-items: stretch; */
+  justify-content: center;
+  height: 100vh;
+  padding: 20px 50px 50px;
+  text-align: center;
+  /* box-sizing: border-box; */
+  background-image: radial-gradient(
+    circle 879px at 10.4% 22.3%,
+    rgb(241, 255, 235) 0%,
+    rgb(243, 186, 245) 93.6%
+  );
+}
+
+#title {
+  font-size: 2rem;
+}
+
+.active {
+  fill: lightsteelblue;
+}
+
+.tooltip {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  text-align: center;
+  width: 150px;
+  height: 50px;
+  padding: 2px;
+  font: 12px;
+  background: lightsteelblue;
+  box-shadow: 1px 1px 10px;
+  border-radius: 2px;
+  pointer-events: none;
+}
